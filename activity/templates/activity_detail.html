@@ -1,0 +1,16 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN""http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+<head>
+    <title>Activity detial!</title>
+</head>
+<body>
+    <h2>Acitvity</h2>
+    {% if activity %}
+    <p>{{activity.name}}</p>
+    <p>{{activity.creator}}</p>
+    <p>{{activity.time}}</p>
+    <p>{{activity.content}}</p>
+    {% endif %}
+</body>
+</html>
+
